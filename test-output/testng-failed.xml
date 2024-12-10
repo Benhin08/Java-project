@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Acxhange.TimeoutExample">
+      <class name="com.Acxhange.DataDrivenTest">
         <methods>
-          <include name="testmethod2"/>
+          <include name="testLogin"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.Acxhange.TimeoutExample -->
+      </class> <!-- com.Acxhange.DataDrivenTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

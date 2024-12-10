@@ -55,6 +55,11 @@
     <version>7.20.1</version>
 </dependency>
 <dependency>
+        <groupId>org.apache.poi</groupId>
+        <artifactId>poi-ooxml</artifactId>
+        <version>5.2.3</version> <!-- Or latest version -->
+    </dependency>
+<dependency>
     <groupId>io.github.bonigarcia</groupId>
     <artifactId>webdrivermanager</artifactId>
     <version>5.6.2</version> <!-- Use the latest version -->
