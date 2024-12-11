@@ -1,4 +1,5 @@
 package com.Acxhange;
+import org.testng.annotations.Test;
 
 public class Datatype { 
 	public static void main(String[] args) {
